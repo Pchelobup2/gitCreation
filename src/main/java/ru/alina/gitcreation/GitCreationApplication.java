@@ -8,7 +8,9 @@ public class GitCreationApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(GitCreationApplication.class, args);
+        System.out.println("feature 1");
         System.out.println("feature 2");
+
     }
 
 }
